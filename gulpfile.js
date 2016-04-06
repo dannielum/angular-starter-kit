@@ -92,9 +92,9 @@ gulp.task('test', ['compile', 'test-tsc'], function (done) {
         singleRun: !argv.debug
     }, function () {
         console.log('Cleaning up test files...');
+        done();
         return gulp.src('./test-runner/', { read: false })
             .pipe(plugins.clean({ force: true }));
-        done();
     }).start();
 });
 

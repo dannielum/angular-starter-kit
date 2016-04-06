@@ -8,7 +8,7 @@ module.exports = function(config){
       'app/bower_components/angular-resource/angular-resource.js',
       'app/bower_components/angular-route/angular-route.js',
       'app/bower_components/angular-mocks/angular-mocks.js',
-      'app/js/bundle.js',
+      'app/javascripts/bundle.js',
       'test-runner/tests/**/*.js'
     ],
 
