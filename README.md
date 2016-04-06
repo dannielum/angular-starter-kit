@@ -18,18 +18,11 @@ Things added on top of the angular seed app:
 npm install
 ```
 
-Behind the scenes this will also call `bower install`.  You should find that you have two new
+Behind the scenes this will also call `bower install` and `typings install`.  You should find that you have three new
 folders in your project.
 
 * `node_modules` - contains the npm packages for the tools we need
 * `app/bower_components` - contains the angular framework files
-
-```
-tsd install
-```
-
-You should find that you have a new folder in your project.
-
 * `typings` - contains the typescript definitions
 
 ### Run the Application
@@ -60,12 +53,14 @@ This will bundle and minify the js code.
 
 ```
 app/                    --> all of the source files for the application
-  app.css               --> default stylesheet
+  css/                  --> all css files
   partials/             --> all partial html files
     view1/                --> the view1 view template
       view1.html            --> the partial template
     view2/                --> the view2 view template
       view2.html            --> the partial template
+  scss/                 --> all scss files
+    main.scss               --> the scss file
   tests/                --> all tests files
     components/           --> all app specific modules
       version_test.ts            --> "version" value service tests

@@ -1,4 +1,4 @@
-/// <reference path="../../typings/tsd.d.ts" />
+/// <reference path="../../typings/browser.d.ts" />
 /// <reference path="view1/view1Ctrl.ts" />
 /// <reference path="view1/view1Service.ts" />
 /// <reference path="view2/view2Ctrl.ts" />

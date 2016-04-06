@@ -6,4 +6,5 @@ typings/
 tmp
 .DS_Store
 .idea
+npm-debug.log
 app/js/*

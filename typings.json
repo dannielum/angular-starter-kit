@@ -1,0 +1,12 @@
+{
+  "name": "starter-web",
+  "version": false,
+  "ambientDependencies": {
+    "angular": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular.d.ts#f4b1797c1201b6c575668f5d7ea12d9b1ab21846",
+    "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#f4b1797c1201b6c575668f5d7ea12d9b1ab21846",
+    "jasmine": "github:DefinitelyTyped/DefinitelyTyped/jasmine/jasmine.d.ts#f4b1797c1201b6c575668f5d7ea12d9b1ab21846",
+    "angular-route": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-route.d.ts#f4b1797c1201b6c575668f5d7ea12d9b1ab21846",
+    "angular-mocks": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-mocks.d.ts#f4b1797c1201b6c575668f5d7ea12d9b1ab21846",
+    "angular-resource": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular-resource.d.ts#f4b1797c1201b6c575668f5d7ea12d9b1ab21846"
+  }
+}
